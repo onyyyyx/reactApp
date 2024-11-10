@@ -12,7 +12,7 @@ function Todo(props) {
           Edit <span className="visually-hidden">{props.name}</span>
         </button>
         <button type="button" className="btn btn__danger">
-          Danger <span className="visually-hidden">{props.name}</span>
+          Delete <span className="visually-hidden">{props.name}</span>
         </button>
       </div>
     </li>
